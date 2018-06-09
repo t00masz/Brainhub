@@ -1,0 +1,160 @@
+.background {
+background-color: rgba(173, 216, 230, 0.185);
+}
+
+.header0 {
+  color: #000;
+  padding-top: 40px;
+  text-align: center;
+  font-family: Garamond;
+  font-size: 50px;
+}
+
+.conteiner0 {
+  max-width: 400px;
+  padding-top: 5px; 
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  height: 260px; 
+}
+
+.conteiner1 {
+  max-width: 400px;
+  padding-top: 30px; 
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.form0 {
+  border:2px solid green;
+  font-family: Garamond;
+  font-size: 20px;
+  width: 800px;
+  left: 50%;
+  margin-left:0px;
+  text-align: center;
+}
+
+.inputT0 {
+  position: absolute;
+  border:0.5px solid black;
+  background: ghostwhite;
+  font-family: garamond;
+  font-size: 20px;
+  color :black;     
+  width: 400px;
+  height: 30px;
+  top: 80px
+}
+.inputT1 {
+  position: absolute;
+  border:0.5px solid black;
+  background: ghostwhite;
+  font-family: garamond;
+  font-size: 20px;
+  color :black;     
+  width: 400px;
+  height: 30px;
+  top: 150px
+}
+.inputT2 {
+  position: absolute;
+  border:0.5px solid black;
+  background: ghostwhite;
+  font-family: garamond;
+  font-size: 20px;
+  color :black;     
+  width: 400px;
+  height: 30px;
+  top: 220px
+}
+
+.inputD0 {
+  position: relative;
+  border:1px solid black;
+  background: ghostwhite;
+  font-family: garamond;
+  font-size: 20px;
+  color :black;     
+  width: 150px;
+  height: 30px;
+  left: 50%;
+  margin-left:-75px;
+  text-align: center;
+}
+
+.label0 {
+  position: relative;
+  font-family: garamond;
+  font-size: 40px;
+  left: 50%;
+  width: 300px;
+  margin-left:-150px;
+  text-align: center;
+}
+
+.labelE0 {
+  position: absolute;
+  font-family: garamond;
+  font-size: 20px;
+  height: 20px;
+  text-shadow: -0.4px 0 black, 0 0.4px black, 0.4px 0 black, 0 -0.4px black;
+  color :red;   
+  top: 115px
+}
+
+.labelE1 {
+  position: absolute;
+  font-family: garamond;
+  font-size: 20px;
+  height: 20px;
+  text-shadow: -0.4px 0 black, 0 0.4px black, 0.4px 0 black, 0 -0.4px black;
+  color :red;   
+  top: 185px
+}
+
+.labelE2 {
+  position: absolute;
+  font-family: garamond;
+  font-size: 20px;
+  height: 20px;
+  text-shadow: -0.4px 0 black, 0 0.4px black, 0.4px 0 black, 0 -0.4px black;
+  color :red;   
+  top: 255px
+}
+
+.labelE3 {
+  position: absolute;
+  font-family: garamond;
+  font-size: 20px;
+  height: 20px;
+  width: 250px;
+  left: 50%;
+  margin-left:-125px;
+  text-shadow: -0.4px 0 black, 0 0.4px black, 0.4px 0 black, 0 -0.4px black;
+  color :red;   
+  top: 125px;
+  text-align: center
+}
+
+.button0 {
+  position: relative;
+  left: 50%;
+  border:1px solid black;
+  background: ghostwhite;
+  font-family: garamond;
+  font-size: 30px;
+  color :black;     
+  width: 200px;
+  height: 60px;
+  margin-left: -100px;
+  top: 40px
+}
+
+.button0:active {
+  margin-left: -90px;
+  width: 180px;
+  height: 50px;
+}
