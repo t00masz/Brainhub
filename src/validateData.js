@@ -42,6 +42,5 @@ function errors (dataToValidate) {
         error
     )
 }
-
 export default errors;
 

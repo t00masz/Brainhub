@@ -1,0 +1,2 @@
+export const SEND_USER_DATA = "SEND_USER_DATA";
+export const CHANGE_USER_DATA = "CHANGE_USER_DATA"

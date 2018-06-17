@@ -1,10 +1,10 @@
-export const UPDATE_USER = 'users:updateUser';
+import * as types from './action-types';
+import errors from '../src/validateData'
 
-export function updateUser(newUser) {
-    return {
-        type: UPDATE_USER,
-        payload: {
-            user: newUser
-        }
-    }
-}
+export const changeUserData = (payload = {}) => {
+  console.log(payload, 'errors')
+  return({
+    type: types.CHANGE_USER_DATA, 
+    user: payload
+  })
+};
