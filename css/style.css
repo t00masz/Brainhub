@@ -2,7 +2,7 @@
 background-color: rgba(173, 216, 230, 0.185);
 }
 
-.header0 {
+.main-header {
   color: #000;
   padding-top: 40px;
   text-align: center;
@@ -10,7 +10,7 @@ background-color: rgba(173, 216, 230, 0.185);
   font-size: 50px;
 }
 
-.conteiner0 {
+.user-container {
   max-width: 400px;
   padding-top: 5px; 
   width: 100%;
@@ -19,25 +19,17 @@ background-color: rgba(173, 216, 230, 0.185);
   height: 260px; 
 }
 
-.conteiner1 {
-  max-width: 400px;
-  padding-top: 30px; 
-  width: 100%;
-  margin: 0 auto;
+.user-container__label {
   position: relative;
-}
-
-.form0 {
-  border:2px solid green;
-  font-family: Garamond;
-  font-size: 20px;
-  width: 800px;
+  font-family: garamond;
+  font-size: 40px;
   left: 50%;
-  margin-left:0px;
+  width: 300px;
+  margin-left:-150px;
   text-align: center;
 }
 
-.inputT0 {
+.user-container__name-input {
   position: absolute;
   border:0.5px solid black;
   background: ghostwhite;
@@ -48,7 +40,7 @@ background-color: rgba(173, 216, 230, 0.185);
   height: 30px;
   top: 80px
 }
-.inputT1 {
+.user-container__lastName-input {
   position: absolute;
   border:0.5px solid black;
   background: ghostwhite;
@@ -59,7 +51,7 @@ background-color: rgba(173, 216, 230, 0.185);
   height: 30px;
   top: 150px
 }
-.inputT2 {
+.user-container__email-input {
   position: absolute;
   border:0.5px solid black;
   background: ghostwhite;
@@ -71,7 +63,55 @@ background-color: rgba(173, 216, 230, 0.185);
   top: 220px
 }
 
-.inputD0 {
+.user-container__name-error {
+  position: absolute;
+  font-family: garamond;
+  font-size: 20px;
+  height: 20px;
+  text-shadow: -0.4px 0 black, 0 0.4px black, 0.4px 0 black, 0 -0.4px black;
+  color :red;   
+  top: 115px
+}
+
+.user-container__lastName-error {
+  position: absolute;
+  font-family: garamond;
+  font-size: 20px;
+  height: 20px;
+  text-shadow: -0.4px 0 black, 0 0.4px black, 0.4px 0 black, 0 -0.4px black;
+  color :red;   
+  top: 185px
+}
+
+.user-container__email-error {
+  position: absolute;
+  font-family: garamond;
+  font-size: 20px;
+  height: 20px;
+  text-shadow: -0.4px 0 black, 0 0.4px black, 0.4px 0 black, 0 -0.4px black;
+  color :red;   
+  top: 255px
+}
+
+.date-container {
+  max-width: 400px;
+  padding-top: 30px; 
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.date-container__label {
+  position: relative;
+  font-family: garamond;
+  font-size: 40px;
+  left: 50%;
+  width: 300px;
+  margin-left:-150px;
+  text-align: center;
+}
+
+.date-container__date-input {
   position: relative;
   border:1px solid black;
   background: ghostwhite;
@@ -85,47 +125,7 @@ background-color: rgba(173, 216, 230, 0.185);
   text-align: center;
 }
 
-.label0 {
-  position: relative;
-  font-family: garamond;
-  font-size: 40px;
-  left: 50%;
-  width: 300px;
-  margin-left:-150px;
-  text-align: center;
-}
-
-.labelE0 {
-  position: absolute;
-  font-family: garamond;
-  font-size: 20px;
-  height: 20px;
-  text-shadow: -0.4px 0 black, 0 0.4px black, 0.4px 0 black, 0 -0.4px black;
-  color :red;   
-  top: 115px
-}
-
-.labelE1 {
-  position: absolute;
-  font-family: garamond;
-  font-size: 20px;
-  height: 20px;
-  text-shadow: -0.4px 0 black, 0 0.4px black, 0.4px 0 black, 0 -0.4px black;
-  color :red;   
-  top: 185px
-}
-
-.labelE2 {
-  position: absolute;
-  font-family: garamond;
-  font-size: 20px;
-  height: 20px;
-  text-shadow: -0.4px 0 black, 0 0.4px black, 0.4px 0 black, 0 -0.4px black;
-  color :red;   
-  top: 255px
-}
-
-.labelE3 {
+.date-container__date-error {
   position: absolute;
   font-family: garamond;
   font-size: 20px;
@@ -139,7 +139,7 @@ background-color: rgba(173, 216, 230, 0.185);
   text-align: center
 }
 
-.button0 {
+.date-container_button-submit {
   position: relative;
   left: 50%;
   border:1px solid black;
@@ -153,8 +153,15 @@ background-color: rgba(173, 216, 230, 0.185);
   top: 40px
 }
 
-.button0:active {
+.date-container_button-submit:active {
   margin-left: -90px;
   width: 180px;
   height: 50px;
 }
+
+
+
+
+
+
+

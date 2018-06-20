@@ -1,6 +1,6 @@
 #!/bin/bash
 
-npm run frontendCreate &
+npm run build &
 wait &
 npm run frontendStart &
 wait &

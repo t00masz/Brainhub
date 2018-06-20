@@ -5,22 +5,27 @@
   "main": "index.js",
   "scripts": {
     "start": "start.sh",
-    "frontendCreate": "webpack --config webpack.config.js ",
+    "build": "webpack --config webpack.config.js ",
     "serverStart": "nodemon index.js",
     "frontendStart": "live-server",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --watch"
   },
+
   "author": "Tomasz Ratman",
   "license": "ISC",
   "dependencies": {
+    "babel-jest": "^23.0.1",
+    "babel-loader": "^7.1.4",
     "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-1": "^6.24.1",
     "body-parser": "^1.18.2",
     "express": "^4.16.3",
+    "jest": "^23.1.0",
     "live-server": "^1.2.0",
     "mongodb": "^3.0.7",
     "mongoose": "^5.0.17",
+    "node-fetch": "^2.1.2",
     "nodemon": "^1.17.3",
     "react-redux": "^5.0.7",
     "react-scripts": "^1.1.4",
