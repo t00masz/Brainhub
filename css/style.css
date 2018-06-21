@@ -95,7 +95,7 @@ background-color: rgba(173, 216, 230, 0.185);
 
 .date-container {
   max-width: 400px;
-  padding-top: 30px; 
+  padding-top: 230px; 
   width: 100%;
   margin: 0 auto;
   position: relative;
@@ -135,7 +135,7 @@ background-color: rgba(173, 216, 230, 0.185);
   margin-left:-125px;
   text-shadow: -0.4px 0 black, 0 0.4px black, 0.4px 0 black, 0 -0.4px black;
   color :red;   
-  top: 125px;
+  top: 545px;
   text-align: center
 }
 
