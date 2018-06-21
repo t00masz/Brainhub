@@ -5,6 +5,7 @@ const fetch = require('node-fetch') // needed for tests
 
 export const sendUserData = (payload = {}) => {
     let checkForErrors = errors({ name: payload.name, lastName: payload.lastName, email: payload.email, date: payload.date });
+    
     if (checkForErrors.name === '' && checkForErrors.lastName === '' && checkForErrors.email === '' && checkForErrors.date === ''){
         fetch('http://localhost:5000/persons', {
                 method: 'POST',

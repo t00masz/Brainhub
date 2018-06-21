@@ -3,7 +3,7 @@ import { sendUserData } from '../../actions/send-data'
 import today from '../../src/getDate'
 
 
-test('should return 0 errors from sendUserData', () => {
+test('passed if 0 errors are returned', () => {
     const action = sendUserData({
         name: `Jan`,
         lastName: `Kowalski`,
@@ -28,7 +28,7 @@ test('should return 0 errors from sendUserData', () => {
     })
 })
 
-test('should return 4 errors from sendUserData', () => {
+test('passed if 4 errors are returned', () => {
     const action = sendUserData({
         name: `111`,
         lastName: ``,
@@ -53,7 +53,7 @@ test('should return 4 errors from sendUserData', () => {
     })
 })
 
-test('should return 4 errors from sendUserData', () => {
+test('passed if 0 errors are returned', () => {
     const action = sendUserData({
         name: `Jan22;`,
         lastName: `Kowalki11`,
