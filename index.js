@@ -13,7 +13,7 @@ app.use(function(req, res, next) {
 app.use(bodyParser.json());
 
 mongoose.connect('mongodb://localhost/database', error => {
-    if (error !==null) {
+    if (error) {
         console.log(`Database is not connected! Program needs to be restarted after connecting with database.`)
     }
 
@@ -21,6 +21,8 @@ mongoose.connect('mongodb://localhost/database', error => {
          console.log('App is listening')
     }
 })
+
+
 
 mongoose.Promise = global.Promise
 app.use(routes);
